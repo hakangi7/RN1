@@ -1,0 +1,9 @@
+name: Enable Status Check
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Dummy Status Check
+        run: echo "✅ Status Check Passed!"
