@@ -1,3 +1,5 @@
+아래는 요청하신 내용을 반영하여 `README.md`를 보완한 버전입니다. 🚀  
+
 ---
 
 ## 📱 **About This App**  
@@ -22,10 +24,18 @@ This application is designed for **buying and selling used Apple devices**.
    - Buyers can express their interest by **leaving a comment** on an item.  
    - The **seller receives an instant FCM push notification** with the comment content.  
    - This enables seamless interaction and facilitates transactions.  
+   - 🔹 **FCM Server-Side:** The **FCM push notification system is implemented not only on iOS and Android clients but also on the Node.js server**.  
+   - 🔹 **FCM Key Management:**  
+     - The **FCM server key file** must be added in the backend (`server/` folder).  
+     - The **FCM configuration file** for clients (iOS/Android) must be added in the appropriate directory.  
 
-4️⃣ **FCM Implementation (iOS, Android, and Node.js Server)**  
-   - The **FCM system is implemented not only on iOS and Android clients but also on the Node.js server**.  
-   - Setting up a **full-fledged FCM system requires deep expertise in native iOS and Android development**, and I have successfully implemented it across all platforms.  
+4️⃣ **Google Maps API Integration** 🗺️  
+   - 🔹 **Google Maps API Key File:** The **Google Maps API key file must be added** for location-based services to function.  
+   - 🔹 **API Configurations:** Ensure that the required **Google APIs** (Geocoding, Places, and Maps JavaScript API) are enabled in Google Cloud Console.  
+
+5️⃣ **Enhanced Email Sending via Google Email** ✉️  
+   - The server-side includes functionality to **send emails using a Google email account**.  
+   - The implementation has been improved to ensure **better security and reliability**.  
 
 ---
 
@@ -34,6 +44,7 @@ This application is designed for **buying and selling used Apple devices**.
 - **Backend:** Node.js, Express  
 - **Database:** SQL-based storage  
 - **Push Notifications:** Firebase Cloud Messaging (FCM)  
+- **Google Services:** Google Maps API, Geolocation, Email Service  
 - **Native Integrations:** Full Photo Access (iOS), Location Services  
 
 ---
@@ -44,6 +55,9 @@ This application is designed for **buying and selling used Apple devices**.
 💼 **No sponsorship required for remote work.**  
 
 ---
+
+✅ **추가해야 할 항목을 명확하게 정리하고, 가독성을 개선했습니다!**  
+추가 수정이 필요하면 알려주세요. 🚀😊
 
 # Getting Started
 
