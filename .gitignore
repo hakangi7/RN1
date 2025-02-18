@@ -1,0 +1,65 @@
+# macOS 시스템 파일
+.DS_Store
+
+vendor/
+build/
+
+# Xcode 관련 파일
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace/
+ios/*.xcodeproj/*.xcuserdata/
+ios/*.pbxuser
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.perspectivev3
+ios/*.xccheckout
+ios/*.moved-aside
+ios/*.hmap
+ios/*.ipa
+ios/*.xcuserstate
+ios/.xcode.env.local
+ios/Pods/
+
+# Android 관련 파일
+android/.gradle/
+android/.idea/
+android/app/build/
+android/build/
+android/.cxx/
+android/local.properties
+android/*.iml
+android/*.hprof
+android/*.keystore
+!android/debug.keystore
+
+# Node.js 및 React Native
+node_modules/
+npm-debug.log
+yarn-error.log
+metro-health-check*
+*.jsbundle
+
+# Expo (만약 Expo 사용 중이라면)
+.expo/
+.expo-shared/
+
+# Fastlane (iOS 자동화 관련)
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# 번들링 및 패키징 관련
+*.tgz
+*.zip
+dist/
+coverage/
+
+# Yarn 관련
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

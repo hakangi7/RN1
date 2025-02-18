@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OrangeUsed</string>
+    <string name="msg_token_fmt">Your token is: %s</string>
+</resources>
