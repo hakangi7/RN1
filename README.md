@@ -54,8 +54,6 @@ This application is designed for **buying and selling used Apple devices**.
 
 ---
 
-✅ **추가해야 할 항목을 명확하게 정리하고, 가독성을 개선했습니다!**  
-추가 수정이 필요하면 알려주세요. 🚀😊
 
 # Getting Started
 
